@@ -1,56 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>ALEEV | Smart Living for Pets</title>
+<title>ALEEV | Smart Living For Pets</title>
 
-    <meta name="description" content="Discover innovative smart products designed to improve the lives of pets and their owners.">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-    <meta name="keywords" content="smart pet products, pet gadgets, dog accessories, cat accessories, pet technology">
+<style>
 
-    <meta name="author" content="ALEEV">
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
 
-    <link rel="stylesheet" href="style.css">
+body{
+background:#f7f8fc;
+color:#222;
+}
+
+header{
+background:linear-gradient(135deg,#5b2cff,#4f7cff);
+color:white;
+padding:20px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:32px;
+font-weight:700;
+letter-spacing:2px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:30px;
+font-weight:500;
+transition:.3s;
+}
+
+nav a:hover{
+opacity:.7;
+}
+
+.hero{
+padding:100px 8%;
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:60px;
+}
+
+.hero-text{
+max-width:600px;
+}
+
+.hero-text h1{
+font-size:54px;
+margin-bottom:20px;
+line-height:1.2;
+}
+
+.hero-text p{
+font-size:20px;
+color:#666;
+margin-bottom:35px;
+}
+
+.btn{
+display:inline-block;
+padding:15px 35px;
+background:#5b2cff;
+color:white;
+border-radius:40px;
+text-decoration:none;
+font-weight:600;
+transition:.3s;
+}
+
+.btn:hover{
+background:#416dff;
+}
+
+.hero-image{
+font-size:180px;
+}
+
+.products{
+padding:80px 8%;
+text-align:center;
+}
+
+.products h2{
+font-size:38px;
+margin-bottom:50px;
+}
+
+.cards{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+width:300px;
+padding:35px;
+border-radius:18px;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h3{
+margin:20px 0;
+}
+
+footer{
+background:#1b1b2f;
+color:white;
+padding:30px;
+text-align:center;
+margin-top:80px;
+}
+
+</style>
+
 </head>
 
 <body>
 
-<header class="hero">
+<header>
 
-    <nav class="navbar">
+<div class="logo">ALEEV</div>
 
-        <div class="logo">
-            ALEEV
-        </div>
+<nav>
 
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">About</a></li>
-        </ul>
+<a href="#">Home</a>
+<a href="#">Products</a>
+<a href="#">Blog</a>
+<a href="#">About</a>
 
-    </nav>
-
-    <section class="hero-content">
-
-        <h1>Smart Living for Modern Pets</h1>
-
-        <p>
-            Innovative products that make life easier, safer, and happier for pets and the people who love them.
-        </p>
-
-        <a href="#" class="btn">
-            Coming Soon
-        </a>
-
-    </section>
+</nav>
 
 </header>
 
-<script src="script.js"></script>
+<section class="hero">
+
+<div class="hero-text">
+
+<h1>Smart Living For Modern Pets</h1>
+
+<p>
+Innovative technology that keeps pets safer,
+healthier and happier.
+</p>
+
+<a href="#" class="btn">Coming Soon</a>
+
+</div>
+
+<div class="hero-image">
+
+🐾
+
+</div>
+
+</section>
+
+<section class="products">
+
+<h2>Future Product Categories</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Smart Feeders</h3>
+
+<p>
+Automatic feeding with intelligent scheduling.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>GPS Trackers</h3>
+
+<p>
+Know your pet's location anytime.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Health Devices</h3>
+
+<p>
+Monitor activity and wellness effortlessly.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 ALEEV • Smart Living For Pets
+
+</footer>
 
 </body>
+
 </html>
